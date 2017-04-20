@@ -1,0 +1,97 @@
+/*main*/
+body {
+	width: 100%;
+	height: 100%;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+
+nav {
+	background-color: #711617 !important;
+	padding: 10px 0px 10px;
+}
+.nav-link {
+	color: #c7af62 !important;
+}
+.navbar-nav > li > .active {
+	background-color: #9c1e20;
+}
+.navbar-brand {
+	color: #c7af62 !important;
+}
+.navbar-toggler {
+	background-color: #c7af62;
+}
+.navbar-nav > li > .dropdown-menu { 
+	background-color: #711617; 
+}
+.navbar.nav > .dropdown-menu > .dropdown-item {
+	color: white !important;
+}
+.letra-redes {
+	color: #c7af62;
+}
+.social-link {
+	border: 3px solid #c7af62;
+	border-radius: 50%;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.social-link:hover {
+	background-color: yellow;
+}
+.social-network {
+	padding: 4px 13px;
+}
+
+.net-face {
+	position: relative;
+	top: -7px;
+	left: -4px;
+}
+.social-link:hover {
+	background-color: #c7af62;
+  border: 3px solid #c7af62
+}
+.net-twit {
+	position: relative;
+	top: -7px;
+	left: -6px;
+}
+.net-four {
+	position: relative;
+	top: -7px;
+	left: -4px;
+}
+.net-yout {
+	position: relative;
+	top: -8px;
+	left: -6px;
+}
+.net-trip {
+	position: relative;
+	top: -8px;
+	left: -11px;
+}
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 45%;
+	/*margin-left: -100px;*/
+	z-index: 10;
+}
+.logo > .img-logo {
+	background-image: url("../assets/img/logo.png");
+	background-repeat: no-repeat;
+	width: 166px;
+	height: 166px;
+	display: inline-block;
+	background-position: center;
+	background-color: #222;
+	border-radius: 6%;
+	padding: 20px;
+}
